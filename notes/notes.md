@@ -42,5 +42,8 @@ The below will not work without casting!
 - ```<E extends Animal>``` Also, without this in compatible function, you can't compare. 
 
 
+## Generics with Multiple type parameters
+
+![img](slides/img_8.png)
 
 
