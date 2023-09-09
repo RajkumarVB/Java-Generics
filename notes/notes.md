@@ -32,6 +32,10 @@ The below will not work without casting!
 ## Inheritance with generics 
 ![img](slides/img_7.png)
 
+## Generics Upper Bound 
+
+- ```<? extends Number>``` This means it can be of any type which extends Number class.
+
 
 
 
