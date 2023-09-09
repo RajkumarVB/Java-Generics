@@ -1,6 +1,6 @@
 package zoo;
 
-public class Cage<E extends Animal> {
+public class Cage<E extends Animal & Eats & Runs> {
     private E animal1;
     private E animal2;
 
@@ -30,5 +30,10 @@ public class Cage<E extends Animal> {
 
     public boolean isCompatible(){
         return animal1.getType().equals(animal2.getType());
+    }
+
+    public void feed(){
+        animal1.eat();
+        animal2.eat();
     }
 }

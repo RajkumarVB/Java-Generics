@@ -1,4 +1,13 @@
 package zoo;
 
-public class Monkey extends Animal{
+public class Monkey extends Animal implements Runs,Eats{
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void run() {
+
+    }
 }

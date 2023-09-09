@@ -46,4 +46,8 @@ The below will not work without casting!
 
 ![img](slides/img_8.png)
 
+## Using multiple upper bounds
+ ```Cage<E extends Animal & Eats & Runs>``` The first thing should always be Class and rest others should be Interface.
+The advantage we get is in feed method, we can call animal.eat(). 
 
+ 
