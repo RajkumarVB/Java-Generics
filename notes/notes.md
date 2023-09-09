@@ -36,6 +36,11 @@ The below will not work without casting!
 
 - ```<? extends Number>``` This means it can be of any type which extends Number class.
 
+## Using wild cards example 
+
+- ```<E extends Animal>``` The advantage of using this is, you can't create a cage of String which doesn't make sense
+- ```<E extends Animal>``` Also, without this in compatible function, you can't compare. 
+
 
 
 
