@@ -22,3 +22,11 @@ The below will not work without casting!
 <br></br>
 ![img](slides/img_5.png)
 
+## Generics vs Typed Arrays 
+
+- We were able to add a different type in case of Generics, but that's not possible in case of Arrays.
+- Thus, Generics is a compile time construct, whereas the arrays is a runtime construct. 
+<br></br>
+![img](slides/img_6.png)
+
+
