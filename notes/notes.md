@@ -29,4 +29,9 @@ The below will not work without casting!
 <br></br>
 ![img](slides/img_6.png)
 
+## Inheritance with generics 
+![img](slides/img_7.png)
+
+
+
 
